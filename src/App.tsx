@@ -98,7 +98,7 @@ function App() {
           className="max-w-3xl mx-auto bg-gray-800/50 backdrop-blur-lg rounded-xl p-8 mb-16 border border-gray-700"
         >
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
-          <p className="text-lg text-gray-150 leading-relaxed">
+          <p className="text-lg text-gray-200 leading-relaxed">
           Driven Computer Science student at Union College with a history of developing innovative software solutions. I combine academic rigor with hands-on experience to deliver impactful digital products from backend to enterprise systems.
           </p>
         </motion.div>

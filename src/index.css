@@ -13,22 +13,27 @@
     backdrop-filter: blur(4px);
   }
 }
-/* Custom horizontal scrollbar for the project container */
+
 .overflow-x-auto {
   scrollbar-width: thin;   /* Firefox */
-  scrollbar-color: rgba(255, 255, 255, 0.3) rgba(0, 0, 0, 0); /* Firefox */
+  scrollbar-color: rgba(255, 255, 255, 0.3) rgba(0, 0, 0, 0); 
 }
 
-/* Webkit browsers (Chrome, Safari, etc.) */
+
 .overflow-x-auto::-webkit-scrollbar {
-  height: 6px; /* Adjust height to make the scrollbar thinner */
+  height: 6px; 
 }
 
 .overflow-x-auto::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.3); /* Light color for the thumb */
-  border-radius: 10px;  /* Rounded edges for the scrollbar thumb */
+  background-color: rgba(255, 255, 255, 0.3); 
+  border-radius: 10px;  
 }
 
 .overflow-x-auto::-webkit-scrollbar-track {
-  background-color: rgba(0, 0, 0, 0); /* Transparent track */
+  background-color: rgba(0, 0, 0, 0); 
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a202c; 
+  color: white; 
 }

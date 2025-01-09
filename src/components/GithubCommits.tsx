@@ -7,8 +7,8 @@ const GitHubCommits: React.FC = () => {
   useEffect(() => {
     const fetchGitHubCommits = async () => {
       try {
-        const username = '<JamessLin>'; // Replace with your GitHub username
-        const response = await fetch(`https://api.github.com/users/${username}/events/private`);
+        const username = '<JamessLin>'; 
+        const response = await fetch(`https://api.github.com/repos/${username}/REPO/commits`);
         const data = await response.json();
 
         // Filter out commit events from the response
