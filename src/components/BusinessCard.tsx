@@ -24,8 +24,8 @@ const AnimatedComponent = () => {
 
         <p className="text-gray-400">
           <span className="font-medium text-white">Website: </span>
-          <a href="https://binaryruns.com" className="text-blue-400 hover:underline">
-            binaryruns.com
+          <a href="#" className="text-blue-400 hover:underline">
+            comming soon
           </a>
         </p>
 
